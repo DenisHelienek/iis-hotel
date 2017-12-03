@@ -44,6 +44,6 @@ Route::get('/manager2', 'HomeController@manager2')->name('Manazer2');
 
 Route::get('/reception', 'HomeController@reception')->name('Reception');
 Route::get('/reservation/{idr}', 'HomeController@reservation')->name('reservation');
-Route::post('/reservation', 'HomeController@post')->name('post');
+Route::post('/post{room}', 'HomeController@post')->name('post');
 
 Route::get('/domov', 'HomeController@index')->name('domov');
