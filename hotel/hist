@@ -1,0 +1,1000 @@
+ 1014  make
+ 1015  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1016  make clean
+ 1017  rmdir out
+ 1018  make
+ 1019  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1020  make clean
+ 1021  rmdir out
+ 1022  make
+ 1023  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1024  make clean
+ 1025  rmdir out
+ 1026  make
+ 1027  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1028  make clean
+ 1029  make
+ 1030  rmdir out
+ 1031  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1032  make clean
+ 1033  make
+ 1034  rmdir out
+ 1035  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1036  make clean
+ 1037  rmdir out
+ 1038  make
+ 1039  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1040  telnet pop3.veternicek.sk 110
+ 1041  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1042  rmdir out
+ 1043  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1044  make clean
+ 1045  rmdir out
+ 1046  make
+ 1047  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1048  rmdir out
+ 1049  make clean
+ 1050  make
+ 1051  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1052  make
+ 1053  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1054  make clean
+ 1055  rmdir out
+ 1056  make
+ 1057  make clean
+ 1058  make
+ 1059  rmdir out
+ 1060  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1061  make clean
+ 1062  make
+ 1063  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1064  rmdir out
+ 1065  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1066  make clean
+ 1067  make
+ 1068  make clean
+ 1069  rmdir out
+ 1070  make
+ 1071  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1072  make clean
+ 1073  rmdir out
+ 1074  make
+ 1075  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1076  make clean
+ 1077  rmdir out
+ 1078  make
+ 1079  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1080  make clean
+ 1081  rmdir out
+ 1082  make
+ 1083  rmdir out
+ 1084  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1085  make clean
+ 1086  rmdir out
+ 1087  make
+ 1088  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1089  make clean
+ 1090  rmdir out
+ 1091  make
+ 1092  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1093  make clean
+ 1094  rmdir out
+ 1095  make
+ 1096  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1097  make clean
+ 1098  rmdir out
+ 1099  make
+ 1100  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1101  make clean
+ 1102  rmdir out
+ 1103  make
+ 1104  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1105  make clean
+ 1106  rmdir out
+ 1107  make
+ 1108  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1109  make clean
+ 1110  rmdir out
+ 1111  make
+ 1112  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1113  make clean
+ 1114  rmdir out
+ 1115  make
+ 1116  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1117  make clean
+ 1118  rmdir out
+ 1119  make
+ 1120  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1121  make clean
+ 1122  rmdir out
+ 1123  make
+ 1124  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1125  make clean
+ 1126  rmdir out
+ 1127  make
+ 1128  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1129  make clean
+ 1130  rmdir out
+ 1131  make
+ 1132  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1133  make clean
+ 1134  rmdir out
+ 1135  make
+ 1136  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1137  make clean
+ 1138  rmdir out
+ 1139  make
+ 1140  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1141  make clean
+ 1142  rmdir out
+ 1143  make
+ 1144  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1145  ls
+ 1146  cd out
+ 1147  ls
+ 1148  cd ..
+ 1149  ls
+ 1150  make clean
+ 1151  rmdir out
+ 1152  make
+ 1153  ls
+ 1154  make clean
+ 1155  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1156  make
+ 1157  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1158  ls
+ 1159  rmdir out
+ 1160  make clean
+ 1161  make
+ 1162  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1163  ls
+ 1164  make clean
+ 1165  rmdir out
+ 1166  make
+ 1167  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1168  ls
+ 1169  rmdir out
+ 1170  rm test
+ 1171  make clean
+ 1172  ls
+ 1173  make
+ 1174  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1175  ls
+ 1176  cat 1
+ 1177  cat 12
+ 1178  make clean
+ 1179  rmdir out
+ 1180  ls
+ 1181  rm 1 12
+ 1182  make
+ 1183  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1184  ls
+ 1185  cat 1
+ 1186  cat 2
+ 1187  make clean
+ 1188  rmdir out
+ 1189  ls
+ 1190  rm 1 2
+ 1191  make
+ 1192  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1193  make clean
+ 1194  ls
+ 1195  rmdir out
+ 1196  rm 1 2
+ 1197  ls
+ 1198  make
+ 1199  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1200  ls
+ 1201  cd out
+ 1202  ls
+ 1203  cat 1
+ 1204  ls
+ 1205  cd ..
+ 1206  ls
+ 1207  telnet pop3.veternicek.sk 110
+ 1208  make clean
+ 1209  ls
+ 1210  make
+ 1211  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1212  ls
+ 1213  rm -rf out
+ 1214  ./popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1215  ls
+ 1216  cd out
+ 1217  ls
+ 1218  cat 1
+ 1219  cd ..
+ 1220  ls
+ 1221  rm -rf out
+ 1222  make clean
+ 1223  make
+ 1224  ./popcl pop3.veternicek.sk -p 110 -a cred -o out -d
+ 1225  ls
+ 1226  rm -rf out
+ 1227  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1228  ls
+ 1229  rm -rf out
+ 1230  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1231  cd out
+ 1232  ls
+ 1233  cat 1
+ 1234  make clean
+ 1235  ls
+ 1236  cd ..
+ 1237  make clean
+ 1238  ls
+ 1239  rm -rf out
+ 1240  ls
+ 1241  make
+ 1242  ./popcl pop3.veternicek.sk -p 110 -a cred -o out -d
+ 1243  ls
+ 1244  rm -rf out
+ 1245  make clean
+ 1246  make
+ 1247  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1248  ls out
+ 1249  rm -rf out
+ 1250  ./popcl pop3.veternicek.sk -p 110 -a cred -o out -d
+ 1251  ls out
+ 1252  ./popcl pop3.veternicek.sk -p 110 -a cred -o out -d
+ 1253  make clean
+ 1254  rm -rf out
+ 1255  make
+ 1256  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1257  ls
+ 1258  ls out
+ 1259  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1260  ls
+ 1261  ls out
+ 1262  cd out
+ 1263  rm *
+ 1264  cd ..
+ 1265  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1266  ls out
+ 1267  ls
+ 1268  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1269  ls
+ 1270  cd Documents/
+ 1271  ls
+ 1272  cd FIT/
+ 1273  ls
+ 1274  cd ISA/
+ 1275  ls
+ 1276  cd ..
+ 1277  ls
+ 1278  tar -cvf ISA ISA.tar
+ 1279  tar -cvf ISA.tar ISA
+ 1280  ls
+ 1281  scp ISA.tar xhelie00@merlin.fit.vutbr.cz
+ 1282  ls
+ 1283  merlin
+ 1284  ls ..
+ 1285  ls
+ 1286  ls pop3client/
+ 1287  cp pop3client/COPYING ISA/doc/
+ 1288  ls
+ 1289  cd isa-pop3/
+ 1290  cd ..
+ 1291  cd ISA
+ 1292  ls
+ 1293  make clean
+ 1294  rm -rf out
+ 1295  ls
+ 1296  make
+ 1297  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1298  ls
+ 1299  cat config.popcl 
+ 1300  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1301  cat config.popcl 
+ 1302  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1303  cat config.popcl 
+ 1304  make clean
+ 1305  ls
+ 1306  rm -rf out
+ 1307  rm config.popcl 
+ 1308  make
+ 1309  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1310  make clean
+ 1311  rm -rf out
+ 1312  rm config.popcl 
+ 1313  make
+ 1314  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1315  make clean
+ 1316  rm -rf out
+ 1317  rm config.popcl 
+ 1318  make
+ 1319  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1320  make clean
+ 1321  rm -rf out
+ 1322  rm config.popcl 
+ 1323  make
+ 1324  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1325  ls
+ 1326  ls out
+ 1327  cat config.popcl 
+ 1328  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1329  ls out
+ 1330  cat config.popcl 
+ 1331  cd out
+ 1332  rm 1 2 3 4 5
+ 1333  cd ..
+ 1334  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1335  ls out
+ 1336  cd out
+ 1337  ls
+ 1338  rm 2 3 4 6
+ 1339  ls
+ 1340  cd ..
+ 1341  ls
+ 1342  cat config.popcl 
+ 1343  make clean
+ 1344  make
+ 1345  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1346  make clean
+ 1347  make
+ 1348  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1349  make clean
+ 1350  make
+ 1351  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1352  make clean
+ 1353  make
+ 1354  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1355  make clean
+ 1356  make
+ 1357  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1358  cat config.popcl 
+ 1359  make clean
+ 1360  make
+ 1361  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1362  make clean
+ 1363  make
+ 1364  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1365  make clean
+ 1366  make
+ 1367  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1368  make clean
+ 1369  make
+ 1370  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1371  make clean
+ 1372  make
+ 1373  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1374  make clean
+ 1375  make
+ 1376  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1377  make clean
+ 1378  make
+ 1379  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1380  make clean
+ 1381  make
+ 1382  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1383  make clean
+ 1384  make
+ 1385  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1386  make clean
+ 1387  make
+ 1388  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1389  make clean
+ 1390  make
+ 1391  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1392  make clean
+ 1393  make
+ 1394  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1395  make clean
+ 1396  make
+ 1397  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1398  make clean
+ 1399  make
+ 1400  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1401  gdb popcl pop3.veternicek.sk -p 110 -a cred -o out
+ 1402  gdp popcl
+ 1403  gdb popcl
+ 1404  make clean
+ 1405  make
+ 1406  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1407  make clean
+ 1408  make
+ 1409  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1410  make clean
+ 1411  make
+ 1412  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1413  make clean
+ 1414  make
+ 1415  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1416  make clean
+ 1417  make
+ 1418  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1419  make clean
+ 1420  make
+ 1421  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1422  make clean
+ 1423  make
+ 1424  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1425  make clean
+ 1426  make
+ 1427  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1428  make clean
+ 1429  make
+ 1430  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1431  gdb popcl
+ 1432  make clean
+ 1433  make
+ 1434  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1435  make clean
+ 1436  make
+ 1437  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1438  make clean
+ 1439  make
+ 1440  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1441  gdb popcl
+ 1442  make clean
+ 1443  make
+ 1444  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1445  ls
+ 1446  cd out
+ 1447  ls
+ 1448  rm *
+ 1449  ls
+ 1450  cd ..
+ 1451  ls
+ 1452  ./popcl pop3.veternicek.sk -p 110 -a cred -o out 
+ 1453  ls out
+ 1454  set -o vi
+ 1455  /pop
+ 1456  set -o vi
+ 1457  set +o vi
+ 1458  touch scrip.sh
+ 1459  vi s	
+ 1460  vi scrip.sh
+ 1461  chmod 755 scrip.sh
+ 1462  ls
+ 1463  ./scrip.sh 
+ 1464  vi scrip.sh 
+ 1465  ./scrip.sh 
+ 1466  ls
+ 1467  rm scrip.sh
+ 1468  ls -lart
+ 1469  vi .bash_history
+ 1470  cd Documents/
+ 1471  ls
+ 1472  cd FIT/
+ 1473  ls
+ 1474  cd ISA/
+ 1475  ls
+ 1476  cd I
+ 1477  cd ISA/
+ 1478  ls
+ 1479  cd ..
+ 1480  ls
+ 1481  cd ..
+ 1482  cd IFJ
+ 1483  ls
+ 1484  cd ifj_2017/
+ 1485  ls
+ 1486  make clean
+ 1487  git stuatus
+ 1488  git status
+ 1489  git pull
+ 1490  make debug
+ 1491  ./ifj tests/exp/exp_01_01_var_def.src 
+ 1492  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1493  git status
+ 1494  make clean
+ 1495  git status
+ 1496  rm tests/stack/exp_stack.o tests/stack/main.o tests/stack/stack
+ 1497  git status
+ 1498  make debug
+ 1499  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1500  make debug
+ 1501  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1502  make debug
+ 1503  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1504  make debug
+ 1505  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1506  vi Makefile 
+ 1507  make debug
+ 1508  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1509  make debug
+ 1510  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1511  make debug
+ 1512  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1513  make debug
+ 1514  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1515  make debug
+ 1516  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1517  make debug
+ 1518  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1519  make debug
+ 1520  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1521  make debug
+ 1522  ./ifj tests/exp/exp_01_02_var_def.src 
+ 1523  ls
+ 1524  cd scripts/
+ 1525  ls
+ 1526  ./generator_test.sh 
+ 1527  ls
+ 1528  cd ..
+ 1529  ls
+ 1530  cd generator/
+ 1531  ls
+ 1532  cd ..
+ 1533  cd ifj_2017/
+ 1534  ls
+ 1535  make clean
+ 1536  ls
+ 1537  gi status
+ 1538  git status
+ 1539  git checkout semanticke_akce_marek 
+ 1540  git status
+ 1541  git rm include/prec_parser.h src/exp_stack.c src/parser.c src/prec_parser.c tests/exp/exp_01_02_var_def.src tests/stack/main.c
+ 1542  git status
+ 1543  git checkout semanticke_akce_marek 
+ 1544  git rm include/prec_parser.h src/exp_stack.c src/parser.c src/prec_parser.c tests/exp/exp_01_02_var_def.src tests/stack/main.c
+ 1545  git add * 
+ 1546  git commit -m "syntax"
+ 1547  git checkout semanticke_akce_marek 
+ 1548  git status
+ 1549  git pull
+ 1550  git checkout origin
+ 1551  git status
+ 1552  git pull
+ 1553  git pull origin
+ 1554  git status
+ 1555  git branch
+ 1556  ls
+ 1557  rm ic17int
+ 1558  unzip ic17int_linux64_2017-11-21.zip 
+ 1559  ls
+ 1560  rm README
+ 1561  ls
+ 1562  chmod 755 ic17int
+ 1563  ls
+ 1564  cd scripts/
+ 1565  ls
+ 1566  ./generator_test.sh 
+ 1567  cd ..
+ 1568  git status
+ 1569  ls
+ 1570  rm ic17int_linux64_2017-11-21.zip 
+ 1571  git status
+ 1572  git add ic17int
+ 1573  git commit -m "new interpret"
+ 1574  git push
+ 1575  git push origin HEAD:master 
+ 1576  git help
+ 1577  ls
+ 1578  cd ..
+ 1579  ls
+ 1580  mkdir testing
+ 1581  cd testing/
+ 1582  git clone https://github.com/thejoeejoee/VUT-FIT-IFJ-2017-toolkit.git ifjcode17-toolkit
+ 1583  cd ifjcode17-toolkit/
+ 1584  ls
+ 1585  vi setup.
+ 1586  vi setup.py 
+ 1587  python3 setup.py install
+ 1588  python3
+ 1589  python3 setup.py install
+ 1590  python
+ 1591  python3 setup.py install
+ 1592  ls
+ 1593  cd ifj2017/
+ 1594  ls
+ 1595  cd test
+ 1596  ls
+ 1597  cd ..
+ 1598  cd tests
+ 1599  ls
+ 1600  ls *
+ 1601  cat *
+ 1602  cat */*
+ 1603  ls
+ 1604  cd ..
+ 1605  ls
+ 1606  cd tests
+ 1607  ls
+ 1608  cat 01.stdout 
+ 1609  rm 01.stdout
+ 1610  cd ..
+ 1611  ls
+ 1612  cp tests ../../../ifj_2017/tests/
+ 1613  cp -R tests ../../../ifj_2017/tests/
+ 1614  cd ..
+ 1615  cd ifj_2017/
+ 1616  ls
+ 1617  cd tests/
+ 1618  ls
+ 1619  cd tests/
+ 1620  ls
+ 1621  cd ..
+ 1622  git status
+ 1623  git add tests/tests/ 
+ 1624  git commit -m "test source codes"
+ 1625  git push
+ 1626  git push origin 
+ 1627  git push origin HEAD origin/
+ 1628  git push origin HEAD master 
+ 1629  git push origin HEAD:master 
+ 1630  cd ..
+ 1631  ls
+ 1632  cd testing/
+ 1633  ls
+ 1634  cd ifjcode17-toolkit/
+ 1635  ls
+ 1636  cd data/
+ 1637  ls
+ 1638  cd ..
+ 1639  cd ifj2017/
+ 1640  ls
+ 1641  cd test
+ 1642  ls
+ 1643  cat **
+ 1644  cd ..
+ 1645  ls
+ 1646  cd benchmark/
+ 1647  ls
+ 1648  cd ..
+ 1649  ls
+ 1650  python3 setup.py 
+ 1651  python3 setup.py install
+ 1652  vi setup.
+ 1653  vi setup.cfg
+ 1654  vi README.md 
+ 1655  pip install IFJcode17-toolkit
+ 1656  sudo apt install python-pip
+ 1657  pip install IFJcode17-toolkit
+ 1658  pip install --upgrade pip
+ 1659  pip install IFJcode17-toolkit
+ 1660  python3 setup.py install
+ 1661  vi setup.py 
+ 1662  sudo apt-get install python3-setuptools
+ 1663  python3 setup.py install
+ 1664  sudo python3 setup.py install
+ 1665  vi /ansible-container/requirements.txt
+ 1666  ls
+ 1667  ./test.py 
+ 1668  cd ..
+ 1669  cd ifj_2017/
+ 1670  ls
+ 1671  cd tests/
+ 1672  cd ..
+ 1673  ls
+ 1674  cd tests/
+ 1675  ls
+ 1676  cd tests/
+ 1677  ls
+ 1678  touch Makefile
+ 1679  touch main.c
+ 1680  cd ..
+ 1681  ls *
+ 1682  ls
+ 1683  cd tests/
+ 1684  rm main.c 
+ 1685  rm Makefile 
+ 1686  ls
+ 1687  cd ..
+ 1688  vi Makefile 
+ 1689  ls
+ 1690  make 
+ 1691  ./ifj 
+ 1692  make clean
+ 1693  make
+ 1694  ./ifj 
+ 1695  make clean
+ 1696  make
+ 1697  gdb 
+ 1698  gdb ifj
+ 1699  make clean
+ 1700  ls
+ 1701  make
+ 1702  gdb ifj
+ 1703  vi Makefile 
+ 1704  cd Documents/
+ 1705  ls
+ 1706  cd FIT/
+ 1707  ls
+ 1708  cd IFJ
+ 1709  ls
+ 1710  cd generator/
+ 1711  ls
+ 1712  make clean
+ 1713  make
+ 1714  ./generator 
+ 1715  ls
+ 1716  make
+ 1717  ./generator 
+ 1718  make
+ 1719  ./generator 
+ 1720  cat prog
+ 1721  ./ic17int 
+ 1722  ./ic17int -h
+ 1723  ./ic17int prog
+ 1724  rm prog
+ 1725  ls
+ 1726  ./generator >> prog
+ 1727  ls
+ 1728  rm prog
+ 1729  ./generator 
+ 1730  ./generator | tee prog
+ 1731  ls
+ 1732  cat prog
+ 1733  ./generator | tee prog
+ 1734  tee ./generator prog
+ 1735  tee prog ./generator
+ 1736  ls
+ 1737  cat prog
+ 1738  man tee
+ 1739  ./generator | tee prog
+ 1740  ./generator 
+ 1741  make clean
+ 1742  cat generator.
+ 1743  cat generator.c
+ 1744  make
+ 1745  ./generator 
+ 1746  ./generator >> prog
+ 1747  ./generator 
+ 1748  ./generator | tee prog
+ 1749  ls
+ 1750  cat prog
+ 1751  rm prog
+ 1752  ./generator | cat >> prog
+ 1753  cat prog
+ 1754  ./generator | tee test
+ 1755  cat test
+ 1756  ./generator 
+ 1757  bash -x "./generator | tee tester"
+ 1758  bash -x "./generator | tee prog"
+ 1759  ls
+ 1760  bash -x "./generator | tee prog"
+ 1761  bash "./generator | tee prog"
+ 1762  bash ./generator | tee prog
+ 1763  chmod 755 generator
+ 1764  ./generator | tee prog
+ 1765  cat prog
+ 1766  rm prog test
+ 1767  ls
+ 1768  ./generator 
+ 1769  ./generator >> prog
+ 1770  gdb ./generator 
+ 1771  make
+ 1772  ./generator >> prog
+ 1773  make clean
+ 1774  make
+ 1775  ./generator >> prog
+ 1776  ls
+ 1777  cat prog
+ 1778  gdb ./generator 
+ 1779  ./generator 
+ 1780  echo $?
+ 1781  ls
+ 1782  ./generator q
+ 1783  ./generator | tee asdasd
+ 1784  gdb ./generator 
+ 1785  ls
+ 1786  cat asdasd 
+ 1787  rm asdasd 
+ 1788  rm prog 
+ 1789  ./generator 
+ 1790  vi pr
+ 1791  ls
+ 1792  vi prog
+ 1793  ./ic17int prog 
+ 1794  vi prog 
+ 1795  ./ic17int prog 
+ 1796  vi prog 
+ 1797  make
+ 1798  ./generator 
+ 1799  gdb ./generator 
+ 1800  make
+ 1801  gdb ./generator 
+ 1802  ./generator 
+ 1803  make clean
+ 1804  make
+ 1805  ./generator 
+ 1806  gdb ./generator 
+ 1807  make
+ 1808  gdb ./generator 
+ 1809  ./generator 
+ 1810  make
+ 1811  ./generator 
+ 1812  gdb ./generator 
+ 1813  make
+ 1814  ./generator 
+ 1815  make clean
+ 1816  make
+ 1817  ./generator 
+ 1818  make
+ 1819  ./generator 
+ 1820  make clean
+ 1821  make
+ 1822  ./generator 
+ 1823  gdb ./generator 
+ 1824  make clean
+ 1825  make
+ 1826  ./generator 
+ 1827  gdb ./generator 
+ 1828  ls
+ 1829  rm g*
+ 1830  rm in*
+ 1831  ls
+ 1832  cp ../ifj_2017/src/generator.c .
+ 1833  cp ../ifj_2017/src/instruction.c .
+ 1834  cp ../ifj_2017/include/instruction.h .
+ 1835  cp ../ifj_2017/include/generator.h .
+ 1836  ls
+ 1837  make
+ 1838  ./generator 
+ 1839  make
+ 1840  ./generator 
+ 1841  ./generator >> ads
+ 1842  cat ads
+ 1843  rm ads
+ 1844  make
+ 1845  ./generator >> ads
+ 1846  ./generator
+ 1847  make
+ 1848  ./generator
+ 1849  ./generator >> ads
+ 1850  gdb ./generator 
+ 1851  ./generator 
+ 1852  make
+ 1853  ./generator 
+ 1854  make
+ 1855  ./generator 
+ 1856  make
+ 1857  ./generator 
+ 1858  make
+ 1859  ./generator 
+ 1860  make
+ 1861  ./generator 
+ 1862  gdb ./generator 
+ 1863  make
+ 1864  ./generator 
+ 1865  make
+ 1866  ./generator 
+ 1867  cd ..
+ 1868  cd ifj_2017/
+ 1869  ls
+ 1870  make clean
+ 1871  git status
+ 1872  git branch
+ 1873  git pull
+ 1874  git pull origin
+ 1875  git pull master
+ 1876  git pull origin
+ 1877  git pull origin HEAD:master
+ 1878  git checkout -b generator
+ 1879  git status
+ 1880  git add include/instruction.h src/generator.c src/instruction.c
+ 1881  git commit -m "instructions created, tape usi
+ 1882  git push
+ 1883  git push generator
+ 1884  git push
+ 1885  git status
+ 1886  ls
+ 1887  git push
+ 1888  git push --set-upstream origin generator
+ 1889  git branch
+ 1890  git checkout master
+ 1891  git branch
+ 1892  git status
+ 1893  cd ..
+ 1894  cd generator/
+ 1895  ls
+ 1896  make clean
+ 1897  ls
+ 1898  rm ads
+ 1899  rm prog
+ 1900  ls
+ 1901  make
+ 1902  ls
+ 1903  ./generator 
+ 1904  ./generator >> ads
+ 1905  cat ads
+ 1906  ./ic17int ads
+ 1907  rm ads
+ 1908  ls
+ 1909  ./generator >> program
+ 1910  ./ic17int program
+ 1911  git checkout generator
+ 1912  git branch
+ 1913  cd ..
+ 1914  cd ifj_2017/
+ 1915  git checkout generator 
+ 1916  cd ..
+ 1917  cd generator/
+ 1918  make
+ 1919  ./generator 
+ 1920  make
+ 1921  ./generator 
+ 1922  make
+ 1923  ./generator 
+ 1924  make
+ 1925  ./generator 
+ 1926  make
+ 1927  ./generator 
+ 1928  make
+ 1929  ./generator 
+ 1930  make clean
+ 1931  make
+ 1932  ./generator 
+ 1933  gdb ./generator 
+ 1934  cd ..
+ 1935  cd ifj_2017/
+ 1936  git status
+ 1937  git add src/generator.c 
+ 1938  git commit -m "MUL fix"
+ 1939  git push
+ 1940  cd ..
+ 1941  cd generator/
+ 1942  ls
+ 1943  ./generator 
+ 1944  make
+ 1945  ./generator 
+ 1946  make
+ 1947  ./generator 
+ 1948  gdb ./generator 
+ 1949  make
+ 1950  ./generator 
+ 1951  make
+ 1952  ./generator 
+ 1953  make
+ 1954  ./generator 
+ 1955  make
+ 1956  ./generator 
+ 1957  make
+ 1958  ./generator 
+ 1959  ls
+ 1960  mkdir tree
+ 1961  cp Makefile tree/
+ 1962  cp main.c /tree
+ 1963  cp main.c /tree/
+ 1964  lls
+ 1965  ls
+ 1966  ls tree
+ 1967  cp main.c tree/main.c
+ 1968  cd tree
+ 1969  make
+ 1970  vi Makefile 
+ 1971  make
+ 1972  vi Makefile 
+ 1973  vi main.c 
+ 1974  ake
+ 1975  make
+ 1976  ./generator 
+ 1977  make
+ 1978  ./generator 
+ 1979  make
+ 1980  ./generator 
+ 1981  make
+ 1982  ./generator 
+ 1983  make
+ 1984  ./generator 
+ 1985  cd ..
+ 1986  ls
+ 1987  rm -rf tree
+ 1988  cd ..
+ 1989  cd ifj_2017/
+ 1990  ls
+ 1991  git branch
+ 1992  git checkout master
+ 1993  git branch
+ 1994  git merge generator
+ 1995  git commit -m "merge"
+ 1996  git push
+ 1997  git pull
+ 1998  git push
+ 1999  git branch
+ 2000  ls
+ 2001  cd Documents/
+ 2002  cd FIT/
+ 2003  cd IIS/
+ 2004  cd iis-hotel/
+ 2005  ls
+ 2006  cd hotel/
+ 2007  php artisan make:model Objednavka
+ 2008* 
+ 2009  php artisan make:model Pokoj
+ 2010  ssh root@207.154.229.236
+ 2011  ls
+ 2012  history
+ 2013  history >> hist

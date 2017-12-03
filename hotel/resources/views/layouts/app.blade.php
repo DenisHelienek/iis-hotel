@@ -39,6 +39,42 @@
                     <li><a href="/restauracia">Restauracia</a></li>
                     <li><a href="/wellness">Wellness</a></li>
                     <li><a href="/kontakt">Kontakt</a></li>
+                    @auth
+                        @if ( Auth::user()->rola > 0 )
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    Recepcia <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ url('reception') }}">Udaje o hostoch</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ url('reception') }}">Vytvorenie rezervacie</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        @endif
+                        @if ( Auth::user()->rola == 2 )
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    Manazment <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ url('manager') }}">Sprava klientov</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ url('manager2') }}">Sprava izieb</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        @endif
+                    @endauth
                     
                     <!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -66,15 +102,27 @@
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                    {{ Auth::user()->jmeno }} <span class="caret"></span>
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
+                                        <b> 
+                                        @if ( Auth::user()->rola == 0 ) Klient @endif
+                                        @if ( Auth::user()->rola == 1 ) Zamestnanec @endif
+                                        @if ( Auth::user()->rola == 2 ) Manazer @endif
+                                        </b>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('profil') }}">Profil</a>
+                                    </li>
+
+                                    <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                            Logout
+                                            Odhlasit
                                         </a>
 
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
