@@ -2,9 +2,7 @@
 
 @section('content')
     <div class="container text-center">    
-        
-        <h1>Udaje o hostoch</h1>
-
+ 	<h1>Profil</h1>
 		<table class="table">
 		  	<thead>
 		  	  	<tr>
@@ -14,7 +12,7 @@
 		  	  	 	<th scope="col">Email </th>
 		  	  	 	<th scope="col">Telefon </th>
 		  	  	 	<th scope="col">Adresa </th>
-		  	  	 	<th scope="col">Detail </th>
+		  	  	 	<th scope="col">Rola </th>
 		  	  	</tr>
 		  	</thead>
 		  	<tbody>
@@ -24,27 +22,40 @@
 		  	  		echo "<tr align=\"left\">";
 		  	  		$id = 100; 
 		  	  		foreach ($data[$i] as $key => $value) {
+		  	  			if ($key == "rola") {
+		  	  				switch ($value) {
+		  	  					case '0':
+		  	  						echo "<td> Klient  </td>";
+		  	  						break;
 
-		  	  			if ($key == 'id') {
-		  	  				$id = $value; 
+		  	  					case '1':
+		  	  						echo "<td> Zamestnanec  </td>";
+		  	  						break;
+
+		  	  					case '2':
+		  	  						echo "<td> Manazer </td> ";
+		  	  						break;		  	  						
+		  	  					
+		  	  					default:
+		  	  						break;
+		  	  				}
 		  	  				continue;
 		  	  			}
 
-		  	  			if ($key == 'rola') {
+		  	  			if ($key == "id") {
+		  	  				$id = $value; 
 		  	  				continue;
 		  	  			}
 
 		  	  			echo "<td> $value </td>";
 		  	  		}
-
-		  	  		echo "<td>";
-		  	  		?> <a href="{{ url('profil2/'.$id) }}"> <?php
-		  	  		echo "<i class=\"fa fa-plus\"></i></td>";
+		  	
 		  	  		echo "</tr>";
 		  	  	}
 		  	  	?>
 		  	</tbody>
-		</table>    
+		</table>       
+
     </div>
 @endsection
  

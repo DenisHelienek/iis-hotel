@@ -5,7 +5,16 @@
         <h1>Rezervacia</h1>
         <div class="container">
             <?php
-                $meno = $data[0]['jmeno'];
+                $id = Auth::user()->id;
+
+                foreach ($data as $key => $value) {
+
+                    if ($data[$key]['id'] == $id) {
+                        $id = $key ;
+                    }
+                }
+
+                $meno = $data[$id]['jmeno'];
                 $priezvisko = $data[0]['prijmeni'];
                 echo "<h3> Objednavatel: $meno $priezvisko </h3>";
                 $c1 = $room[0]['cena_zakladni'];
@@ -13,9 +22,11 @@
                 $c3 = $room[0]['sleva_pri_rezervaci'];
                 $rom = $room[0]['id'];
                 $final = $c1 + $c2 - $c3;
+
+                $id = Auth::user()->id;
             ?>
 
-        <?php echo Form::open(array('url' => 'post'.$rom, 'method' => 'post')); ?>
+        <?php echo Form::open(array('url' => 'post'.$rom.'/p'.$id, 'method' => 'post')); ?>
           <table class="table">
             <thead>
               <tr>

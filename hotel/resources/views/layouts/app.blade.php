@@ -52,7 +52,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="{{ url('reception') }}">Vytvorenie rezervacie</a>
+                                        <a href="{{ url('reception2') }}">Vytvorenie rezervacie</a>
                                     </li>
                                 </ul>
                             </li>
@@ -107,15 +107,19 @@
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
-                                        <b> 
+                                        <b>     &nbsp;      &nbsp;      &nbsp;
                                         @if ( Auth::user()->rola == 0 ) Klient @endif
                                         @if ( Auth::user()->rola == 1 ) Zamestnanec @endif
                                         @if ( Auth::user()->rola == 2 ) Manazer @endif
                                         </b>
                                     </li>
 
-                                    <li>
-                                        <a href="{{ route('profil') }}">Profil</a>
+                                    <li> <?php $id = Auth::user()->id; ?>
+                                        <a href="{{ url('profil'.$id) }}">Profil</a>
+                                    </li>
+
+                                    <li> <?php $id = Auth::user()->id; ?>
+                                        <a href="{{ url('profil2/'.$id) }}">Objednavky</a>
                                     </li>
 
                                     <li>

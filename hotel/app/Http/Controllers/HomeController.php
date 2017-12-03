@@ -11,8 +11,13 @@ use App\Uzivatel;
 use App\Pokoj;
 use App\Rezervacia;
 use Eloquent;
+use App\VSluzba;
+use App\Sluzba;
+
+
 class HomeController extends Controller
 {
+
     /**
      * Create a new controller instance.
      *
@@ -118,11 +123,12 @@ class HomeController extends Controller
         return view('reservation', ['data' => $data, 'room' => $room, 'flag' => $flag]);       
     }
 
-    public function post(Request $request, $room)
+    public function post(Request $request, $room, $id)
     {
         $r = $request->toArray();
         $kap = Pokoj::where('id', '=', $room)->select(['kapacita'])->get()->toArray();
         $price = Pokoj::where('id', '=', $room)->select(['popis', 'kapacita', 'cena_zakladni', 'sezonni_priplatek', 'sleva_pri_rezervaci', 'id'])->get()->toArray();
+        $vs = Objednavka::select(['vs'])->orderBy('vs', 'desc')->first()->toArray();
 
         if ($kap[0]['kapacita'] < $r['pocet']) {
             $data = Uzivatel::select(['jmeno', 'prijmeni', 'email', 'telefon', 'adresa', 'rola', 'id'])->get()->toArray();
@@ -151,7 +157,7 @@ class HomeController extends Controller
         dd($i);*/
 
         /*Eloquent::unguard();
-
+        */
         $c1 = $price[0]['cena_zakladni'];
         $c2 = $price[0]['sezonni_priplatek'];
         $c3 = $price[0]['sleva_pri_rezervaci'];
@@ -160,12 +166,12 @@ class HomeController extends Controller
         $obj = new Objednavka;
         $rez = new Rezervacia;
 
-        $data['vs'] = '5';
+        $data['vs'] = $vs['vs'] + 1;
         $data['vytvoreni_objednavky'] = date("Y-m-d");
         $data['konecna_cena'] = $final;
-        $data['host_id'] = '0';
+        $data['host_id'] = $id;
 
-        $data2['id'] = '2';
+        $data2['id'] = $vs['vs'] + 1;
         $data2['objednavka_id'] = $data['vs'];
         $data2['pokoj_id'] = $room;
         $data2['rezervace_od'] = $r['od'];
@@ -173,8 +179,11 @@ class HomeController extends Controller
         $data2['pocet_osob'] = $r['pocet'];
 
         $obj->fill($data);
-
+        $rez->fill($data2);
         $obj->save();
+        $rez->save();
+
+
         //$rez->save();*/
 
         /*Objednavka::with(['rezervacie', 'rezervacie.pokoj'])->insert(
@@ -185,6 +194,108 @@ class HomeController extends Controller
             ['id' => '2',  'objednavka_id' => '1', 'pokoj_id' => $room, 'rezervace_od' => $r['od'], 'rezervace_do' => $r['do'], 'pocet_osob' => $r['pocet']]
         );*/
 
-        return view('kontakt');
+        return view('domov');
     }
+
+    public function profil($id)
+    {
+        $data = Uzivatel::where('id', '=', $id)->select(['jmeno', 'prijmeni', 'datum_narozeni', 'email', 'telefon', 'adresa', 'rola', 'id'])->get()->toArray();
+
+        return view('profil', ['data' => $data]);
+    }
+
+    public function profil2($id)
+    {
+        $data = Objednavka::where('host_id', '=', $id)->select()->get()->toArray();
+
+        return view('profil2', ['data' => $data]);
+    }
+
+    public function detail($id)
+    {
+        $data = Objednavka::where('vs', '=', $id)->select()->get()->toArray();
+        $data2 = Rezervacia::select()->get()->toArray();
+        $data3 = VSluzba::where('objednavka_id', '=', $id)->select()->get()->toArray();
+
+        $data3 = Sluzba::where('id', '=', $data3[0]['sluzba_id'])->get()->toArray();
+
+        return view('detail', ['data' => $data, 'data2' => $data2, 'data3' => $data3]);
+    }
+
+    public function reception()
+    {
+        $data = Uzivatel::select(['jmeno', 'prijmeni', 'datum_narozeni', 'email', 'telefon', 'adresa', 'rola', 'id'])->get()->toArray();
+
+        return view('reception', ['data' => $data]);
+    }
+
+    public function reception2()
+    {
+        $data = Uzivatel::select(['jmeno', 'prijmeni', 'datum_narozeni', 'email', 'telefon', 'adresa', 'rola', 'id'])->get()->toArray();
+
+        return view('reception2', ['data' => $data]);
+    }
+
+    public function postres(Request $request)
+    {
+        $r = $request->toArray();
+
+        Uzivatel::insert(
+            ['jmeno' => $r['jmeno'], 'prijmeni' => $r['prijmeni'], 'datum_narozeni' => $r['datum_narozeni'], 'email' => $r['email'], 'telefon' => $r['telefon'], 'adresa' => $r['adresa']]);
+
+        return view('reception3');        
+    }
+   
+    public function reception3()
+    {
+        $data = Uzivatel::select(['jmeno', 'prijmeni', 'datum_narozeni', 'email', 'telefon', 'adresa', 'rola', 'id'])->get()->toArray();
+
+        return view('reception3', ['data' => $data]);
+    }
+
+    public function book(Request $request, $id)
+    {
+        $r = $request->toArray();
+
+        $room = $r['pokoj_id'];
+
+        $kap = Pokoj::where('id', '=', $room)->select(['kapacita'])->get()->toArray();
+        $price = Pokoj::where('id', '=', $room)->select(['popis', 'kapacita', 'cena_zakladni', 'sezonni_priplatek', 'sleva_pri_rezervaci', 'id'])->get()->toArray();
+        $vs = Objednavka::select(['vs'])->orderBy('vs', 'desc')->first()->toArray();
+
+        if ($kap[0]['kapacita'] < $r['pocet']) {
+            $data = Uzivatel::select(['jmeno', 'prijmeni', 'email', 'telefon', 'adresa', 'rola', 'id'])->get()->toArray();
+            $room = Pokoj::where('id', '=', $room)->select(['popis', 'kapacita', 'cena_zakladni', 'sezonni_priplatek', 'sleva_pri_rezervaci', 'id'])->get()->toArray();
+            $flag = "Pocet osob je vacsi ako kapacita izby!";
+            return view('reception3', ['data' => $data]);                   
+        }
+
+        $c1 = $price[0]['cena_zakladni'];
+        $c2 = $price[0]['sezonni_priplatek'];
+        $c3 = $price[0]['sleva_pri_rezervaci'];
+        $final = $c1 + $c2;
+
+        $obj = new Objednavka;
+        $rez = new Rezervacia;
+
+        $data['vs'] = $vs['vs'] + 1;
+        $data['vytvoreni_objednavky'] = date("Y-m-d");
+        $data['konecna_cena'] = $final;
+        $data['host_id'] = $id;
+
+        $data2['id'] = $vs['vs'] + 1;
+        $data2['objednavka_id'] = $data['vs'];
+        $data2['pokoj_id'] = $room;
+        $data2['rezervace_od'] = $r['rezervace_od'];
+        $data2['rezervace_do'] = $r['rezervace_do'];
+        $data2['pocet_osob'] = $r['pocet'];
+
+        $obj->fill($data);
+        $rez->fill($data2);
+        $obj->save();
+        $rez->save();
+
+        return view('domov');        
+    }
+
 }
